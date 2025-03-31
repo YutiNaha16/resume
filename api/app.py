@@ -27,5 +27,8 @@ def analyze():
 
     return render_template('results.html', result=analysis_result)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+import os
+
+def handler(event, context):
+    os.system("gunicorn -w 4 -b 0.0.0.0:8000 api.app:app")
+

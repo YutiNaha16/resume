@@ -1,3 +1,9 @@
 gunicorn
 gunicorn
 gunicorn
+flask
+flas-bootstrap
+pyPDF2
+python-docx
+textblob
+openai
