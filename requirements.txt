@@ -70,3 +70,4 @@ textblob
 pypdf2
 python-docx
 
+en_core_web_sm
